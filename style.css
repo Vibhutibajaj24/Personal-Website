@@ -434,12 +434,7 @@ font-size: small;
     .about_l .download input{
         width: 20vw;
     }
-    .middle_container .role1{
-        display: block;
-    }
-    .middle_container .role{
-        display: none;
-    }
+    
 }
 
 
@@ -491,6 +486,12 @@ font-size: small;
     }
     .about_l .download input{
         width: 25vw;
+    }
+    .middle_container .role1{
+        display: block;
+    }
+    .middle_container .role{
+        display: none;
     }
 }
 @media (max-width: 350px) {
