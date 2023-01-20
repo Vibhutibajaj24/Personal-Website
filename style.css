@@ -79,7 +79,9 @@ margin-left: -15%;
 .middle_container:hover{
     transform: rotateX(40deg);
 }
-
+.middle_container .role1{
+    display: none;
+}
 
 @media (max-width: 750px) {
     .container{
@@ -422,6 +424,12 @@ font-size: small;
     }
     .about_l .download input{
         width: 20vw;
+    }
+    .middle_container .role1{
+        display: block;
+    }
+    .middle_container .role{
+        display: none;
     }
 }
 
